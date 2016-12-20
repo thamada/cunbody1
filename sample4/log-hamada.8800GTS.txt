@@ -1,0 +1,25 @@
+-------------------------
+Using 1-th GPU.
+-------------------------
+  GPU : GeForce 8800 GTS 512
+  Major # :  1
+  Minor # :  1
+  core clock rate :  1.78 GHz
+  Number of cores :  128
+  Number of multiprocessors : 16
+  global memory : 536150016 bytes
+  constant memory : 65536 bytes
+  shared memory per block : 16384 bytes
+  registers available per block : 8192
+  Warp size : 32
+  Max # of threads per block : 512
+  Max sizes of each dimension of a block : 512 x 512 x 64
+  Maximum sizes of each dimension of a grid : 65535 x 65535 x 1
+  Maximum memory pitch : 262144 bytes
+  Texture alignment    : 256 bytes
+  Concurrent copy and execution: Yes
+  cudaSetDevice to 0 
+2.51767 [sec]
+1.70593e+09 [interactions/sec]
+3.97192 [forces/sec]
+648.253 [Gflops]

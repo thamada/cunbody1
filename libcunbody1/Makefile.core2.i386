@@ -1,0 +1,6 @@
+#Time-stamp: <2009-01-17 15:15:54 hamada>
+
+
+ARCHFLAG = -march=core2
+
+include common.mk

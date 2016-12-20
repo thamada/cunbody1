@@ -1,0 +1,6 @@
+#Time-stamp: <2009-01-17 15:15:06 hamada>
+
+
+ARCHFLAG = -march=nocona -m64
+
+include common.mk

@@ -1,0 +1,44 @@
+#Time-stamp: <2009-01-16 23:54:12 hamada>
+By Tsuyoshi Hamada <hamada@cis.nagasaki-u.ac.jp>
+
+----------------------------
+How to compile library.
+----------------------------
+export SDK_INSTALL_PATH=/home/hamada/NVIDIA_CUDA_SDK
+export CUDA_INSTALL_PATH=/usr/local/cuda
+
+cd libcunbody1/
+make clean
+make
+
+----------------------------
+How to compile and run sample1
+----------------------------
+cd sample1
+make clean
+make
+./a.out
+
+
+----------------------------
+How to compile and run sample2
+----------------------------
+cd sample2
+make clean
+make
+./a.out    (check 1st GPU)
+./a.out 1  (check 1st GPU)
+./a.out 2  (check 2nd GPU)
+./a.out 3  (check 3rd GPU)
+./a.out 4  (check 4rd GPU)
+
+----------------------------
+How to compile and run sample3
+----------------------------
+cd sample3
+make clean
+make
+./a.out
+
+(*) for my environment,  Emax =4.524054e-07
+

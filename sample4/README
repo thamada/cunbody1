@@ -1,0 +1,17 @@
+#Time-stamp: <2009-01-17 02:56:08 hamada>
+
+performance check using single GPU.
+
+You can select multiple GPUs.
+If you want to check the single GPU,
+export OMP_NUM_THREADS=1
+./a.out 
+
+
+If you want to check the 2 GPUs,
+export OMP_NUM_THREADS=2
+./a.out
+
+
+
+

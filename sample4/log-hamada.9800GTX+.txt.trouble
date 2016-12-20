@@ -1,0 +1,48 @@
+Memory Info:
+             total       used       free     shared    buffers     cached
+Mem:          7983        238       7745          0         13        168
+-/+ buffers/cache:         56       7927
+Swap:         2000          0       2000
+Linux Kernel Version: Linux g74 2.6.18-53.1.13.el5 #1 SMP Tue Feb 12 13:02:30 EST 2008 x86_64 x86_64 x86_64 GNU/Linux
+GPU Driver Version: /usr/lib64/libcuda.so.180.06*
+---------------------------------------------------
+# of OMP threads use 2 GPUs: 2
+---------------------------------------------------
+  GPU : GeForce 9800 GTX/9800 GTX+
+  Major # :  1
+  GPU : GeForce 9800 GTX/9800 GTX+
+  Major # :  1
+  Minor # :  1
+  core clock rate :  1.89 GHz
+  Number of cores :  128
+  Number of multiprocessors : 16
+  global memory : 536150016 bytes
+  constant memory : 65536 bytes
+  shared memory per block : 16384 bytes
+  registers available per block : 8192
+  Warp size : 32
+  Max # of threads per block : 512
+  Max sizes of each dimension of a block : 512 x 512 x 64
+  Maximum sizes of each dimension of a grid : 65535 x 65535 x 1
+  Maximum memory pitch : 262144 bytes
+  Texture alignment    : 256 bytes
+  Concurrent copy and execution: Yes
+  cudaSetDevice to 0
+  Minor # :  1
+  core clock rate :  0.81 GHz
+  Number of cores :  128
+  Number of multiprocessors : 16
+  global memory : 536608768 bytes
+  constant memory : 65536 bytes
+  shared memory per block : 16384 bytes
+  registers available per block : 8192
+  Warp size : 32
+  Max # of threads per block : 512
+  Max sizes of each dimension of a block : 512 x 512 x 64
+  Maximum sizes of each dimension of a grid : 65535 x 65535 x 1
+  Maximum memory pitch : 262144 bytes
+  Texture alignment    : 256 bytes
+  Concurrent copy and execution: Yes
+  cudaSetDevice to 1
+open GeForce 9800 GTX/9800 GTX+ by CUNBODY-1 library: rev.hamada20080905  (^<_^)/ 0
+open GeForce 9800 GTX/9800 GTX+ by CUNBODY-1 library: rev.hamada20080905  (^<_^)/ 1

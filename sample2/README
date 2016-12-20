@@ -1,0 +1,17 @@
+#Time-stamp: <2009-01-16 23:27:43 hamada>
+
+performance check using single GPU.
+
+You can select multiple GPUs.
+If you want to check the first GPU,
+  ./a.out 
+    or 
+  ./a.out 1
+
+If you want to check the second GPU,
+  ./a.out 2
+
+
+
+
+
